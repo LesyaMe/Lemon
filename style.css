@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+	background-color: #eaeaea;
+}
+
+.container {
+	display: block;
+	max-width: 1120px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.biglogo {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 250px;
+	margin-bottom: 120px;
+}
+
+a {
+	text-decoration: none; 
+}
+
+li {
+	list-style-type: none;
+}
+
+header {
+	background-color: #ffffff;
+}
+
+.head {
+	display: flex;
+	justify-content: space-around;
+	
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 94px;
+	padding-right: 94px;
+	
+}
+
+.logo, .search {
+	margin-top: 7px;
+}
+
+.menu {
+	display: flex;
+	
+	text-transform: uppercase;
+	font-family: 'JosefinSans', Arial, sans-serif;
+	font-size: 16px;
+}
+
+.menu-list-item {
+	margin-right: 20px;
+}
+
+.menu-link {
+	color: black;
+}
+
+.search-field {
+	box-sizing: border-box;
+    width: 163px;
+    border: 2px solid #eaeaea;
+    text-transform: uppercase;
+	font-family: 'JosefinSans', Arial, sans-serif;
+	font-size: 12px;
+	background-image: url(image/Searchicon.png);
+	background-repeat: no-repeat;
+    background-position: left 30px center;
+    padding-left: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  width: 1px;
+}
+
+.main-recipe {
+	display: block;
+	box-sizing: border-box;
+	margin-top: 85px;
+	
+	background-image: url(image/cake.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 120%;
+	background-color: #ffffff;
+	padding-left: 94px;
+	padding-right: 94px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
+
+.article-info {
+	font-family: 'Josefin Sans', Arial, sans-serif;
+	font-size: 16px;
+	color: #000000;
+	max-width: 360px;
+}
+
+.title {
+
+	display: block;
+	box-sizing: border-box;
+	color: #911026;
+	margin-top: 34px;
+	margin-bottom: 30px;
+	font-size: 24px;
+
+}
+
+.get {
+	font-family: 'Josefin Sans', Arial, sans-serif;
+	font-size: 12px;
+	color: #000000;
+
+    display: block;
+	box-sizing: border-box;
+	border: 2px solid #c2c2c2;
+	width: 110px;
+	padding-top: 7px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+
+}
+
